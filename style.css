@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bg{
+	background: url("img/bq.png") no-repeat center center fixed;
+	height: 100%;
+	overflow: hidden;
+	background-size: cover;
+}
+
+table{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 15%;
+	background: white;
+	height: 50%;
+}
+.submit{
+	background: #255EAF;
+	color: white;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30;
+	font-weight: 400;
+	
+}
+td{
+	padding: 15px;
+}
+.submit:hover{
+	background: #EF0E12;
+	color: white;
+}

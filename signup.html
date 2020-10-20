@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Daftar</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style type="text/css">
+.bg table tbody tr td h3 {
+    font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana, sans-serif;
+}
+</style>
+</head>
+
+<body class="bg">
+	<form method="post" action="do_signup.php">
+		<table width="60%" border="0">
+	  		<tbody>
+			<tr>
+			  <td width="47%" align="center"><h3>Daftar di Sini</h3></td>
+			  <td width="49%" rowspan="3" align="center"><img src="img/logo.png" width="200" height="200" ></td>
+			</tr>
+			<tr>
+			  <td><input type="text" name="nama" id="nama" placeholder="Nama"><br><br>
+			    <input type="text" name="username" id="username" placeholder="Nama Pengguna">
+				&nbsp;
+				<input type="password" name="password" id="password" placeholder="Kata Sandi"><br><br>
+				<input type="date" name="ttl" id="ttl" placeholder="Tanggal Lahir"><font size="1" color="red">*Tanggal Lahir</font><br><br>
+				  <label>
+				    <input type="radio" name="JK" value="Laki-laki" id="JK_0">
+				    Laki-laki</label>
+				  <br>
+				  <label>
+				    <input type="radio" name="JK" value="Perempuan" id="JK_1">
+				    Perempuan</label>
+				  <br><br>
+				<input type="text" name="alamat" id="alamat" placeholder="Alamat"></td>
+			  </tr>
+			<tr>
+			  <td align="center"><input type="submit" name="submit" id="submit" value="Masuk" class="submit"><font size="1">Sudah punya akun? <a href="login.html">Masuk Sekarang</a></font> </td>
+			  </tr>
+			  <tr>
+			  <td>&nbsp;</td>
+			  <td width="49%">&nbsp;</td>
+			  </tr>
+		  </tbody>
+</table>
+	</form>
+
+</body>
+</html>
